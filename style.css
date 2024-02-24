@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-image: url(Assets/bg-masthead.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+button {
+    color: white;
+    background-color: royalblue;
+    height: 50px;
+    border-radius: 10%;
+    width: 100px;
+
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.services {
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.welcome {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    align-items: center;
+    background-image: url(Assets/portfolio-4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+.buttom {
+
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+}
+
+section .services .option {
+
+    height: 400px;
+    width: 150px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+section .welcome {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
